@@ -47,6 +47,25 @@ export function CaseMedia({ media, alt = '', priority = false, poster }) {
     return () => observer.disconnect();
   }, [reducedMotion]);
 
+  if (media.type === 'scroll') {
+    return (
+      <div
+        className='case-scroll-media'
+        tabIndex={0}
+        aria-label={alt + '. Hover or focus to pause the scrolling preview.'}
+      >
+        <Image
+          src={media.src}
+          alt={alt}
+          width={1440}
+          height={5000}
+          unoptimized
+          className='case-scroll-image'
+        />
+      </div>
+    );
+  }
+
   if (media.type === 'video') {
     return (
       <video

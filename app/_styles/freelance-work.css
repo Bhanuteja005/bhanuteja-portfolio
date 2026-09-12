@@ -1,0 +1,183 @@
+/* Screenshots remain legible instead of being cropped into square artwork. */
+.reference-tile-image img,
+.work-hover-track img {
+  object-fit: contain;
+  padding: 6%;
+}
+.case-summary {
+  max-width: 680px;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: -40px 0 55px;
+  color: #666;
+}
+.freelance-case .case-hero-media {
+  aspect-ratio: auto;
+  padding: 8vw;
+}
+.freelance-case .case-hero-base {
+  position: relative;
+  inset: auto;
+}
+.freelance-case .case-hero-media img {
+  height: auto !important;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 20px 60px #0002;
+}
+.freelance-case .case-device-screen {
+  overflow: hidden;
+  border: 1px solid #0001;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px #0002;
+}
+.freelance-case .case-mobile-devices .case-device {
+  flex: 0 1 390px;
+  max-width: 390px;
+  border: 9px solid #202124;
+  border-radius: 35px;
+  overflow: hidden;
+}
+.freelance-case .case-mobile-devices .case-device-screen {
+  border: 0;
+  border-radius: 0;
+}
+.freelance-case .case-next-image {
+  width: 250px;
+  height: 174px;
+}
+.freelance-case .case-next-image img {
+  object-fit: contain;
+}
+@media (max-width: 720px) {
+  .case-summary {
+    font-size: 17px;
+    margin: -15px 0 40px;
+  }
+  .freelance-case .case-heading h1 {
+    font-size: clamp(38px, 9vw, 48px);
+  }
+  .freelance-case .case-hero-media {
+    padding: 90px 5% 45px;
+  }
+  .freelance-case .case-mobile-devices .case-device {
+    flex-basis: 280px;
+    max-width: 80%;
+  }
+}
+
+/* Animated laptop demonstration and three distinct phone views. */
+.freelance-case .case-laptop-demo .case-media-groups {
+  width: 76%;
+  max-width: 1200px;
+  padding-bottom: 30px;
+}
+.freelance-case .case-laptop-demo .case-device {
+  position: relative;
+}
+.freelance-case .case-laptop-demo .case-device-screen {
+  border: 14px solid #202124;
+  border-bottom-width: 24px;
+  border-radius: 22px 22px 8px 8px;
+  background: #202124;
+}
+.freelance-case .case-laptop-demo .case-device::after {
+  content: '';
+  position: absolute;
+  left: -7%;
+  bottom: -20px;
+  width: 114%;
+  height: 23px;
+  border-radius: 3px 3px 50% 50% / 3px 3px 90% 90%;
+  background: linear-gradient(#dadbdd, #b3b5b8 55%, #77797c);
+  box-shadow: 0 14px 24px #0002;
+}
+.freelance-case .case-laptop-demo .case-device::before {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  width: 15%;
+  height: 7px;
+  bottom: -8px;
+  left: 42.5%;
+  background: #95979a;
+  border-radius: 0 0 9px 9px;
+}
+.case-scroll-media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: white;
+}
+.freelance-case .case-scroll-media .case-scroll-image {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  animation: case-screen-scroll 24s ease-in-out infinite alternate;
+}
+.case-scroll-media:hover .case-scroll-image,
+.case-scroll-media:focus .case-scroll-image {
+  animation-play-state: paused;
+}
+@keyframes case-screen-scroll {
+  0%,
+  12% {
+    top: 0;
+    transform: translateY(0);
+  }
+  88%,
+  100% {
+    top: 100%;
+    transform: translateY(-100%);
+  }
+}
+.freelance-case .case-mobile-devices .case-media-groups {
+  gap: 4%;
+  align-items: center;
+  width: 82%;
+}
+.freelance-case .case-mobile-devices .case-device {
+  flex: 1 1 0;
+  max-width: 30%;
+  min-width: 0;
+}
+.freelance-case .case-mobile-devices .case-device:nth-child(2) {
+  transform: translateY(35px);
+}
+@media (max-width: 720px) {
+  .freelance-case .case-laptop-demo .case-media-groups {
+    width: 82%;
+    padding-bottom: 15px;
+  }
+  .freelance-case .case-laptop-demo .case-device-screen {
+    border-width: 6px;
+    border-bottom-width: 10px;
+    border-radius: 10px 10px 4px 4px;
+  }
+  .freelance-case .case-laptop-demo .case-device::after {
+    height: 12px;
+    bottom: -10px;
+  }
+  .freelance-case .case-laptop-demo .case-device::before {
+    height: 4px;
+    bottom: -4px;
+  }
+  .freelance-case .case-mobile-devices .case-media-groups {
+    width: 94%;
+    gap: 3%;
+  }
+  .freelance-case .case-mobile-devices .case-device {
+    max-width: 32%;
+    border-width: 4px;
+    border-radius: 14px;
+  }
+  .freelance-case .case-mobile-devices .case-device:nth-child(2) {
+    transform: translateY(18px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .freelance-case .case-scroll-media .case-scroll-image {
+    animation: none;
+  }
+}

@@ -42,21 +42,20 @@ export default function CaseStudy({ params }) {
 
   return (
     <Transition>
-      <div className='case-page'>
+      <div className='case-page freelance-case'>
         <Navbar />
         <main>
           <header className='case-heading'>
             <h1>{project.title}</h1>
+            <p className='case-summary'>{project.description}</p>
             <div className='case-facts'>
               <section>
                 <h2>Role / Services</h2>
                 <p>{project.service}</p>
               </section>
               <section>
-                <h2>Location &amp; year</h2>
-                <p>
-                  {project.location} © {project.year}
-                </p>
+                <h2>Location</h2>
+                <p>{project.location}</p>
               </section>
             </div>
           </header>
@@ -65,7 +64,9 @@ export default function CaseStudy({ params }) {
             {detail.live && (
               <div className='case-live'>
                 <MagneticLink
-                  href='#project-preview'
+                  href={detail.live}
+                  target='_blank'
+                  rel='noopener noreferrer'
                   className='contact-circle'
                 >
                   View project <ArrowUpRight size={19} />
@@ -99,6 +100,7 @@ export default function CaseStudy({ params }) {
               key={blockIndex}
               className={cn(
                 'case-media-block',
+                block.className.includes('laptop') && 'case-laptop-demo',
                 block.className.includes('block-fullwidth') && 'case-fullwidth',
                 block.className.includes('mobile') && 'case-mobile-devices',
               )}

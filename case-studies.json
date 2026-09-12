@@ -1,41 +1,22 @@
 {
-  "twice": {
-    "live": "https://twicemediahouse.com/",
+  "aurum-reality": {
+    "live": "https://www.aurumreality.com/",
     "hero": [
       {
         "type": "image",
-        "src": "https://dennissnellenberg.com/media/pages/work/twice/56dc0c6ce1-1710405711/dsc7458.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://dennissnellenberg.com/media/pages/work/twice/b8d83f1720-1710411070/case-header-twice.svg"
+        "src": "/images/freelance/aurum-reality/desktop.jpg"
       }
     ],
     "blocks": [
       {
-        "className": "section single-block block-device block_0  ",
-        "color": "#C0CAC9",
+        "className": "block-laptop-demo",
+        "color": "#eee5cd",
         "groups": [
           {
             "media": [
               {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/twice/2a06f31598-1710406342/screen-rec-home-2.mov"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-mbp-16-lower-nonotch.png"
-          }
-        ]
-      },
-      {
-        "className": "section single-block block-device block_1 block-padding-bottom ",
-        "color": "#C0CAC9",
-        "groups": [
-          {
-            "media": [
-              {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/twice/9c011cac90-1710411859/screen-rec-nav-hover.mp4"
+                "type": "scroll",
+                "src": "/images/freelance/aurum-reality/desktop-scroll.jpg"
               }
             ],
             "frame": null
@@ -43,44 +24,14 @@
         ]
       },
       {
-        "className": "section single-block block-fullwidth block_2",
-        "color": "#f1f1f1",
-        "groups": [
-          {
-            "media": [
-              {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/twice/9410598988-1710411431/starvie.mp4"
-              }
-            ],
-            "frame": null
-          }
-        ]
-      },
-      {
-        "className": "section single-block block-device block_3  ",
-        "color": "#C0CAC9",
-        "groups": [
-          {
-            "media": [
-              {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/twice/49c2363f7d-1710412499/screen-rec-work.mp4"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-mbp-16-lower-nonotch.png"
-          }
-        ]
-      },
-      {
-        "className": "section single-block block-mobile-devices block_4",
-        "color": "#C0CAC9",
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
         "groups": [
           {
             "media": [
               {
                 "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/twice/076ed24f45-1710412700/screen-mobile-1.jpg"
+                "src": "/images/freelance/aurum-reality/mobile.jpg"
               }
             ],
             "frame": null
@@ -89,7 +40,7 @@
             "media": [
               {
                 "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/twice/6d3469f364-1710412710/screen-mobile-2.jpg"
+                "src": "/images/freelance/aurum-reality/mobile-2.jpg"
               }
             ],
             "frame": null
@@ -98,7 +49,7 @@
             "media": [
               {
                 "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/twice/4482f6c357-1710412713/screen-mobile-3.jpg"
+                "src": "/images/freelance/aurum-reality/mobile-3.jpg"
               }
             ],
             "frame": null
@@ -107,43 +58,24 @@
       }
     ]
   },
-  "future-goals": {
-    "live": "https://futuregoals.com/en/",
+  "roastery-coffee-house": {
+    "live": "https://roasterycoffee.co.in/hyderabad/",
     "hero": [
       {
         "type": "image",
-        "src": "https://dennissnellenberg.com/media/pages/work/future-goals/8c916e77f1-1653053706/futuregoals-case-header.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://dennissnellenberg.com/media/pages/work/future-goals/98001978ba-1653053710/futuregoals-case-header-front.svg"
+        "src": "/images/freelance/roastery-coffee-house/desktop.jpg"
       }
     ],
     "blocks": [
       {
-        "className": "section single-block block-device block_0 block-padding-bottom ",
-        "color": "#DCD0C2",
+        "className": "block-laptop-demo",
+        "color": "#f0e9e4",
         "groups": [
           {
             "media": [
               {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/future-goals/ad92afd3da-1653054674/future-goals-screen.mp4"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-ipad-pro-lower.png"
-          }
-        ]
-      },
-      {
-        "className": "section single-block block-fullwidth block_1",
-        "color": "#dcd0c2",
-        "groups": [
-          {
-            "media": [
-              {
-                "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/future-goals/98ad2da45a-1653055060/full-size-1.jpg"
+                "type": "scroll",
+                "src": "/images/freelance/roastery-coffee-house/desktop-scroll.jpg"
               }
             ],
             "frame": null
@@ -151,62 +83,32 @@
         ]
       },
       {
-        "className": "section single-block block-mobile-devices block_2",
-        "color": "#DCD0C2",
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
         "groups": [
           {
             "media": [
               {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/future-goals/73fecccd91-1653055451/screen-rec-mob.mp4"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-iphone13-nonotch.png"
-          },
-          {
-            "media": [
-              {
                 "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/future-goals/7290f5da48-1653055387/futuregoals-screen-2.jpg"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-iphone13-nonotch.png"
-          },
-          {
-            "media": [
-              {
-                "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/future-goals/69afe68ccf-1653055393/futuregoals-screen-3.jpg"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-iphone13-nonotch.png"
-          }
-        ]
-      },
-      {
-        "className": "section single-block block-fullwidth block_3",
-        "color": "#dcd0c2",
-        "groups": [
-          {
-            "media": [
-              {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/future-goals/c6b7159243-1653056956/high_headerfuturegoals-1.mp4"
+                "src": "/images/freelance/roastery-coffee-house/mobile.jpg"
               }
             ],
             "frame": null
-          }
-        ]
-      },
-      {
-        "className": "section single-block block-screenshot block_4 block-padding-bottom ",
-        "color": "#DCD0C2",
-        "groups": [
+          },
           {
             "media": [
               {
                 "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/future-goals/685adbde8d-1653055959/photo-gallery-big.jpg"
+                "src": "/images/freelance/roastery-coffee-house/mobile-2.jpg"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/roastery-coffee-house/mobile-3.jpg"
               }
             ],
             "frame": null
@@ -215,158 +117,24 @@
       }
     ]
   },
-  "atypikal": {
-    "live": "https://atypikal.co/",
+  "true-black": {
+    "live": "https://trueblack.coffee/",
     "hero": [
       {
         "type": "image",
-        "src": "https://dennissnellenberg.com/media/pages/work/atypikal/e0f19f8847-1646837280/atypikal-case-header.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://dennissnellenberg.com/media/pages/work/atypikal/fd65568bd5-1646837277/atypikal-case-header-overlay.svg"
+        "src": "/images/freelance/true-black/desktop.jpg"
       }
     ],
     "blocks": [
       {
-        "className": "section single-block block-device block_0 block-padding-bottom ",
-        "color": "#d8d5cc",
+        "className": "block-laptop-demo",
+        "color": "#c8bba8",
         "groups": [
           {
             "media": [
               {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/atypikal/869f36be3e-1646837282/atypikal-screen-scroll.mp4"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-macpro-higher.png"
-          }
-        ]
-      },
-      {
-        "className": "section single-block block-mobile-devices block_1",
-        "color": "#b1a994",
-        "groups": [
-          {
-            "media": [
-              {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/atypikal/52f224ca12-1646837279/atypikal-screen-mobile-load.mp4"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-iphone13-nonotch.png"
-          },
-          {
-            "media": [
-              {
-                "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/atypikal/6d95789446-1646837279/atypikal-mobile-2.jpg"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-iphone13-nonotch.png"
-          },
-          {
-            "media": [
-              {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/atypikal/71c55005ad-1646837277/atypikal-mobile-footer.mp4"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-iphone13-nonotch.png"
-          }
-        ]
-      },
-      {
-        "className": "section single-block block-device block_2 block-padding-bottom ",
-        "color": "#d8d5cc",
-        "groups": [
-          {
-            "media": [
-              {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/atypikal/06caeb881e-1646837280/atypikal-screen-footer.mp4"
-              },
-              {
-                "type": "image",
-                "src": "https://dennissnellenberg.com/assets/img/device-apple-pencil.png"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-ipad-pro-lower.png"
-          }
-        ]
-      }
-    ]
-  },
-  "one-nil": {
-    "live": "https://onenil.com/",
-    "hero": [
-      {
-        "type": "image",
-        "src": "https://dennissnellenberg.com/media/pages/work/one-nil/eab8a1f9e0-1646837269/image-case-onenil-v2.jpg"
-      },
-      {
-        "type": "image",
-        "src": "https://dennissnellenberg.com/media/pages/work/one-nil/e9adff7ae4-1646837269/image-case-onenil-logo.svg"
-      }
-    ],
-    "blocks": [
-      {
-        "className": "section single-block block-device block_0 block-padding-bottom ",
-        "color": "#e9eaeb",
-        "groups": [
-          {
-            "media": [
-              {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/one-nil/48db0808ea-1646837267/onenil-screen-load.mp4"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-mbp-16-lower.png"
-          }
-        ]
-      },
-      {
-        "className": "section single-block block-mobile-devices block_1",
-        "color": "#dfdfdf",
-        "groups": [
-          {
-            "media": [
-              {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/one-nil/4cd9bd35fb-1646837271/onenil-screen-mobile-cases.mp4"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-iphone13-nonotch.png"
-          },
-          {
-            "media": [
-              {
-                "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/one-nil/d2d402c560-1646837270/onenil-screen-archive.jpg"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-iphone13-nonotch.png"
-          },
-          {
-            "media": [
-              {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/one-nil/d8aa6ace03-1646837276/onenil-screen-mobile-contact.mp4"
-              }
-            ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-iphone13-nonotch.png"
-          }
-        ]
-      },
-      {
-        "className": "section single-block block-fullwidth block_2",
-        "color": "#e9eaeb",
-        "groups": [
-          {
-            "media": [
-              {
-                "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/one-nil/86e707f8d6-1646837266/onenil-laptop.jpg"
+                "type": "scroll",
+                "src": "/images/freelance/true-black/desktop-scroll.jpg"
               }
             ],
             "frame": null
@@ -374,36 +142,153 @@
         ]
       },
       {
-        "className": "section single-block block-device block_3 block-padding-bottom ",
-        "color": "#e9eaeb",
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
         "groups": [
           {
             "media": [
               {
                 "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/one-nil/cf8d6eb3fa-1646837265/onenil-nav-bar.svg"
-              },
-              {
-                "type": "image",
-                "src": "https://dennissnellenberg.com/media/pages/work/one-nil/26601c386e-1646837270/parallax-archive.jpg"
+                "src": "/images/freelance/true-black/mobile.jpg"
               }
             ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-mbp-16-lower-nonotch.png"
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/true-black/mobile-2.jpg"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/true-black/mobile-3.jpg"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      }
+    ]
+  },
+  "the-dandelion-wish": {
+    "live": "https://thedandelionwish.in/",
+    "hero": [
+      {
+        "type": "image",
+        "src": "/images/freelance/the-dandelion-wish/desktop.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "className": "block-laptop-demo",
+        "color": "#eddbd8",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "scroll",
+                "src": "/images/freelance/the-dandelion-wish/desktop-scroll.jpg"
+              }
+            ],
+            "frame": null
           }
         ]
       },
       {
-        "className": "section single-block block-device block_4 block-padding-bottom ",
-        "color": "#dfdfdf",
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
         "groups": [
           {
             "media": [
               {
-                "type": "video",
-                "src": "https://dennissnellenberg.com/media/pages/work/one-nil/475502238f-1646837270/onenil-screen-nav.mp4"
+                "type": "image",
+                "src": "/images/freelance/the-dandelion-wish/mobile.jpg"
               }
             ],
-            "frame": "https://dennissnellenberg.com/assets/img/device-macpro-higher.png"
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/the-dandelion-wish/mobile-2.jpg"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/the-dandelion-wish/mobile-3.jpg"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      }
+    ]
+  },
+  "the-june-shop": {
+    "live": "https://thejuneshop.com/",
+    "hero": [
+      {
+        "type": "image",
+        "src": "/images/freelance/the-june-shop/desktop.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "className": "block-laptop-demo",
+        "color": "#f5e6ee",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "scroll",
+                "src": "/images/freelance/the-june-shop/desktop-scroll.jpg"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      },
+      {
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/the-june-shop/mobile.jpg"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/the-june-shop/mobile-2.jpg"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/the-june-shop/mobile-3.jpg"
+              }
+            ],
+            "frame": null
           }
         ]
       }

@@ -19,7 +19,7 @@ import {
 } from './variants';
 
 /** Projects shown on the home page before the "More work" link. */
-const HOME_COUNT = 4;
+const HOME_COUNT = 5;
 
 /** Sentinel for "no row hovered or focused". */
 const NONE = -1;
@@ -121,7 +121,7 @@ export function ReferenceWork({ home = false }) {
           <span>Recent work</span>
         ) : (
           <>
-            <span>Client</span>
+            <span>Project</span>
             <span>Location</span>
             <span>Services</span>
             <span>Year</span>

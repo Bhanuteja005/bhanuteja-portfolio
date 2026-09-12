@@ -73,11 +73,12 @@ visitor's own email client, which they review and send themselves.
 
 ## Displayed projects
 
-> **Important**
-> The four projects currently on the site — TWICE, Future Goals, Atypikal and
-> One:Nil — are third-party placeholders, not Bhanu's client work, and their
-> media is loaded from an external site. Replace them with his own projects
-> before presenting this as a freelance portfolio.
+Home and Work display the five projects selected by Bhanu: Aurum Reality,
+Roastery Coffee House, True Black, The Dandelion Wish, and The June Shop.
+Each case includes local desktop, detail, and mobile screenshots under
+`public/images/freelance/`. Cards open local case pages; **View project** opens
+the corresponding supplied live URL in a new tab. Next-case links cycle
+through these five projects. The previous placeholder routes are removed.
 
 Bhanu's own projects are kept in `portfolio-content.js`, with their artwork in
 `public/images/projects/`, ready to be swapped in. To swap them, rewrite the

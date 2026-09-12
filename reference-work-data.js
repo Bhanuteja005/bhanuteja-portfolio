@@ -1,64 +1,68 @@
-/**
- * The development projects shown on the home and work pages.
- *
- * These are third-party placeholders, not the site owner's client work, and
- * their media is served from an external site. `href` is the original project
- * page, which scripts/import-reference-cases.py reads to refresh
- * case-studies.json.
- *
- * The owner's own project data is retained separately in portfolio-content.js.
- */
+/** Freelance projects selected by Bhanu. Screenshots are stored locally. */
 export const referenceWorks = [
   {
-    title: 'TWICE',
-    slug: 'twice',
-    location: 'Spain',
-    service: 'Interaction & Development',
-    year: '2024',
-    color: '#f1f1f1',
-    href: 'https://dennissnellenberg.com/work/twice',
-    image:
-      'https://dennissnellenberg.com/media/pages/work/twice/0ab7e43954-1710404752/thumbnail-twice.jpg',
-    preview:
-      'https://dennissnellenberg.com/media/pages/work/twice/0ab7e43954-1710404752/thumbnail-twice-810x810-crop-q72.jpg',
+    title: 'Aurum Reality',
+    slug: 'aurum-reality',
+    location: 'Hyderabad, India',
+    service: 'Website Development',
+    color: '#eee5cd',
+    href: 'https://www.aurumreality.com/',
+    description:
+      'A property advisory website with property discovery, buying and selling information, and direct enquiry paths.',
+    year: '2026',
+    image: '/images/freelance/aurum-reality/desktop.jpg',
+    preview: '/images/freelance/aurum-reality/desktop.jpg',
   },
   {
-    title: 'Future Goals',
-    slug: 'future-goals',
-    location: 'Curaçao',
-    service: 'Interaction & Development',
-    year: '2022',
-    color: '#dcd0c2',
-    href: 'https://dennissnellenberg.com/work/future-goals',
-    image:
-      'https://dennissnellenberg.com/media/pages/work/future-goals/614e28a662-1653057688/thumbnail-futuregoals.jpg',
-    preview:
-      'https://dennissnellenberg.com/media/pages/work/future-goals/614e28a662-1653057688/thumbnail-futuregoals-810x810-crop-q72.jpg',
+    title: 'Roastery Coffee House',
+    slug: 'roastery-coffee-house',
+    location: 'Hyderabad, India',
+    service: 'Website Development',
+    color: '#f0e9e4',
+    href: 'https://roasterycoffee.co.in/hyderabad/',
+    description:
+      'A café and coffee website bringing together the Hyderabad location, café story, and coffee shopping experience.',
+    year: '2026',
+    image: '/images/freelance/roastery-coffee-house/desktop.jpg',
+    preview: '/images/freelance/roastery-coffee-house/desktop.jpg',
   },
   {
-    title: 'Atypikal',
-    slug: 'atypikal',
-    location: 'United States',
-    service: 'Interaction & Development',
-    year: '2021',
-    color: '#b1a994',
-    href: 'https://dennissnellenberg.com/work/atypikal',
-    image:
-      'https://dennissnellenberg.com/media/pages/work/atypikal/fd1951ffc9-1646837277/thumbnail-atypikal.jpg',
-    preview:
-      'https://dennissnellenberg.com/media/pages/work/atypikal/fd1951ffc9-1646837277/thumbnail-atypikal-810x810-crop-q72.jpg',
+    title: 'True Black',
+    slug: 'true-black',
+    location: 'Hyderabad, India',
+    service: 'Website Development',
+    color: '#c8bba8',
+    href: 'https://trueblack.coffee/',
+    description:
+      'A specialty coffee landing page focused on the brand atmosphere, Hyderabad locations, and its upcoming ordering app.',
+    year: '2026',
+    image: '/images/freelance/true-black/desktop.jpg',
+    preview: '/images/freelance/true-black/desktop.jpg',
   },
   {
-    title: 'One:Nil',
-    slug: 'one-nil',
-    location: 'The Netherlands',
-    service: 'Interaction & Development',
-    year: '2021',
-    color: '#e9eaeb',
-    href: 'https://dennissnellenberg.com/work/one-nil',
-    image:
-      'https://dennissnellenberg.com/media/pages/work/one-nil/288460827e-1646837272/thumbnail-onenil-v3.jpg',
-    preview:
-      'https://dennissnellenberg.com/media/pages/work/one-nil/288460827e-1646837272/thumbnail-onenil-v3-810x810-crop-q72.jpg',
+    title: 'The Dandelion Wish',
+    slug: 'the-dandelion-wish',
+    location: 'Hyderabad, India',
+    service: 'E-commerce Development',
+    color: '#eddbd8',
+    href: 'https://thedandelionwish.in/',
+    description:
+      'A gifting storefront with curated hampers, personalised gifts, and corporate gifting collections.',
+    year: '2026',
+    image: '/images/freelance/the-dandelion-wish/desktop.jpg',
+    preview: '/images/freelance/the-dandelion-wish/desktop.jpg',
+  },
+  {
+    title: 'The June Shop',
+    slug: 'the-june-shop',
+    location: 'India',
+    service: 'E-commerce Development',
+    color: '#f5e6ee',
+    href: 'https://thejuneshop.com/',
+    description:
+      'A lifestyle and gifting storefront with product-led collections, category navigation, and a broad shopping catalogue.',
+    year: '2026',
+    image: '/images/freelance/the-june-shop/desktop.jpg',
+    preview: '/images/freelance/the-june-shop/desktop.jpg',
   },
 ];
