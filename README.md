@@ -71,3 +71,28 @@ reachable through the aliases in `jsconfig.json` (`@/components`, `@/layout`,
 The contact form has no backend. Submitting it opens a prepared draft in the
 visitor's own email client, which they review and send themselves.
 
+## Displayed projects
+
+> **Important**
+> The four projects currently on the site — TWICE, Future Goals, Atypikal and
+> One:Nil — are **reference examples by Dennis Snellenberg**, not Bhanu's
+> client work. Replace them with his own projects before publishing this as a
+> freelance portfolio.
+
+Bhanu's own project data is retained in `portfolio-content.js`, with its
+artwork in `public/images/projects/`, ready to be swapped in.
+
+`scripts/import-reference-cases.py` refreshes `case-studies.json` from the
+reference project pages. It is a data-import tool, not part of the build:
+
+```bash
+python scripts/import-reference-cases.py
+```
+
+## Credits
+
+Layout adapted from [Ali Bagheri's recreation](https://github.com/AliBagheri2079/dennis-snellenberg-portfolio)
+of [Dennis Snellenberg's portfolio](https://dennissnellenberg.com/).
+
+The upstream repository does not include a clear licence grant. Clarify reuse
+rights before publishing this commercially.
