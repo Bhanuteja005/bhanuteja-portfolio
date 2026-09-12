@@ -1,0 +1,10 @@
+/*
+ * Single ordered entry point for the hand-written stylesheet layers, imported
+ * from app/layout.jsx after globals.css.
+ *
+ * Order is significant: `work.css` and `case-contact.css` both override
+ * selectors declared in `base.css`, so they must stay after it.
+ */
+@import './base.css';
+@import './work.css';
+@import './case-contact.css';
