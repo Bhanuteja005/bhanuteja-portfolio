@@ -1,7 +1,8 @@
 import { portfolio } from '@/portfolio.config';
 
 /**
- * The inquiry fields, in the order they are numbered on screen.
+ * The contact form's field schema. Shared deliberately: the form renders from
+ * it and the API route validates against it, so the two cannot drift.
  *
  * `multiline` renders a textarea; every other entry renders an input.
  *

@@ -75,24 +75,18 @@ visitor's own email client, which they review and send themselves.
 
 > **Important**
 > The four projects currently on the site — TWICE, Future Goals, Atypikal and
-> One:Nil — are **reference examples by Dennis Snellenberg**, not Bhanu's
-> client work. Replace them with his own projects before publishing this as a
-> freelance portfolio.
+> One:Nil — are third-party placeholders, not Bhanu's client work, and their
+> media is loaded from an external site. Replace them with his own projects
+> before presenting this as a freelance portfolio.
 
-Bhanu's own project data is retained in `portfolio-content.js`, with its
-artwork in `public/images/projects/`, ready to be swapped in.
-
-`scripts/import-reference-cases.py` refreshes `case-studies.json` from the
-reference project pages. It is a data-import tool, not part of the build:
-
-```bash
-python scripts/import-reference-cases.py
-```
+Bhanu's own projects are kept in `portfolio-content.js`, with their artwork in
+`public/images/projects/`, ready to be swapped in. To swap them, rewrite the
+entries in `reference-work-data.js` and `case-studies.json` to point at that
+local content.
 
 ## Credits
 
-Layout adapted from [Ali Bagheri's recreation](https://github.com/AliBagheri2079/dennis-snellenberg-portfolio)
-of [Dennis Snellenberg's portfolio](https://dennissnellenberg.com/).
-
-The upstream repository does not include a clear licence grant. Clarify reuse
-rights before publishing this commercially.
+Layout adapted from an open-source Next.js portfolio template by
+[Ali Bagheri](https://github.com/AliBagheri2079). The upstream repository does
+not include a clear licence grant — clarify reuse rights before publishing
+this commercially.

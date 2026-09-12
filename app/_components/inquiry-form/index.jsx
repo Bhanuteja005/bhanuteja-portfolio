@@ -4,53 +4,50 @@ import { useState } from 'react';
 
 import { ArrowUpRight } from 'lucide-react';
 
-import { portfolio } from '@/portfolio.config';
+import { inquiryFields } from '@/config';
 
-import { inquiryFields } from './fields';
 import { MagneticButton } from '../magnetic-button';
-
-/** Shown once the mail client has been handed the draft. */
-const DRAFT_READY_MESSAGE =
-  'Your email draft is ready in your email app. Review it and send it there. If no app opens, use the email link on this page.';
 
 /** Rows for the multiline field. */
 const MESSAGE_ROWS = 4;
 
-/** Builds the mailto body from the submitted form data. */
-function composeBody(data) {
-  return [
-    `Hi ${portfolio.firstName},`,
-    '',
-    `I'm ${data.get('name')} (${data.get('email')}).`,
-    `Organization: ${data.get('company') || 'Independent'}`,
-    `Services: ${data.get('service')}`,
-    '',
-    data.get('message'),
-  ].join('\n');
-}
+const SUCCESS_MESSAGE = 'Thanks — your message is on its way. I’ll reply soon.';
+const NETWORK_MESSAGE =
+  'Could not reach the server. Please check your connection, or email me directly.';
 
-/**
- * Contact form that hands a prepared draft to the visitor's mail client.
- * There is no backend, so nothing is sent from the browser.
- */
 export function InquiryForm() {
   const [status, setStatus] = useState('');
+  const [isSending, setSending] = useState(false);
 
   /** @param {import('react').FormEvent<HTMLFormElement>} event */
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
     event.preventDefault();
 
-    const data = new FormData(event.currentTarget);
-    const subject = `Project inquiry: ${data.get('service')}`;
-    // encodeURIComponent, not URLSearchParams: the latter encodes spaces as
-    // "+", which some mail clients render literally in the draft body.
-    const query = [
-      `subject=${encodeURIComponent(subject)}`,
-      `body=${encodeURIComponent(composeBody(data))}`,
-    ].join('&');
+    const form = event.currentTarget;
+    const payload = Object.fromEntries(new FormData(form));
 
-    window.location.href = `mailto:${portfolio.email}?${query}`;
-    setStatus(DRAFT_READY_MESSAGE);
+    setSending(true);
+    setStatus('');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      const body = await response.json().catch(() => ({}));
+
+      if (response.ok) {
+        form.reset();
+        setStatus(SUCCESS_MESSAGE);
+      } else {
+        setStatus(body.error || NETWORK_MESSAGE);
+      }
+    } catch {
+      setStatus(NETWORK_MESSAGE);
+    } finally {
+      setSending(false);
+    }
   }
 
   return (
@@ -96,13 +93,17 @@ export function InquiryForm() {
       })}
 
       <div className='contact-send-line'>
-        <MagneticButton type='submit' className='contact-circle contact-send'>
-          Send it! <ArrowUpRight size={18} />
+        <MagneticButton
+          type='submit'
+          className='contact-circle contact-send'
+          disabled={isSending}
+        >
+          {isSending ? 'Sending...' : 'Send it!'} <ArrowUpRight size={18} />
         </MagneticButton>
       </div>
 
       <p className='form-note'>
-        Opens your email app with a draft. Review and send it there.
+        Your message goes straight to my inbox. I read every one.
       </p>
       <p className='form-note' role='status'>
         {status}

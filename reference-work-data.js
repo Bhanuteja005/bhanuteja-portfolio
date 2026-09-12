@@ -1,9 +1,10 @@
 /**
  * The development projects shown on the home and work pages.
  *
- * These are reference examples by Dennis Snellenberg (dennissnellenberg.com),
- * not the site owner's client work. `href` is the original project page and is
- * what scripts/import-reference-cases.py reads to refresh case-studies.json.
+ * These are third-party placeholders, not the site owner's client work, and
+ * their media is served from an external site. `href` is the original project
+ * page, which scripts/import-reference-cases.py reads to refresh
+ * case-studies.json.
  *
  * The owner's own project data is retained separately in portfolio-content.js.
  */
