@@ -1,0 +1,80 @@
+/** Labels stay readable even before their locally hosted icons load. */
+export const toolkitGroups = [
+  {
+    title: 'Frontend & languages',
+    skills: [
+      ['Python', 'py'],
+      ['JavaScript', 'js'],
+      ['TypeScript', 'ts'],
+      ['Java', 'java'],
+      ['C', 'c'],
+      ['HTML', 'html'],
+      ['CSS', 'css'],
+      ['React', 'react'],
+      ['Next.js', 'nextjs'],
+      ['Tailwind CSS', 'tailwind'],
+    ],
+  },
+  {
+    title: 'Backend & databases',
+    skills: [
+      ['Node.js', 'nodejs'],
+      ['Express', 'express'],
+      ['Flask', 'flask'],
+      ['FastAPI', 'fastapi'],
+      ['SQL', null],
+      ['MongoDB', 'mongodb'],
+      ['PostgreSQL', 'postgres'],
+      ['MySQL', 'mysql'],
+      ['Redis', 'redis'],
+      ['Firebase', 'firebase'],
+    ],
+  },
+  {
+    title: 'AI & machine learning',
+    skills: [
+      ['TensorFlow', 'tensorflow'],
+      ['OpenCV', 'opencv'],
+      ['scikit-learn', 'sklearn'],
+      ['LangChain', null],
+      ['LangGraph', null],
+      ['CrewAI', null],
+      ['RAG & vector search', null],
+      ['Prompt engineering', null],
+    ],
+  },
+  {
+    title: 'AI tools & automation',
+    skills: [
+      ['ChatGPT / OpenAI', null],
+      ['Claude', null],
+      ['Gemini', null],
+      ['LLM agents', null],
+      ['API integrations', null],
+      ['Workflow automation', null],
+      ['Tool calling', null],
+      ['Pipedrive CRM', null],
+    ],
+  },
+  {
+    title: 'Cloud & developer tools',
+    skills: [
+      ['Google Cloud', 'gcp'],
+      ['AWS', 'aws'],
+      ['Docker', 'docker'],
+      ['Git', 'git'],
+      ['GitHub', 'github'],
+      ['GitHub Actions', 'githubactions'],
+      ['Postman', 'postman'],
+      ['Linux', 'linux'],
+    ],
+  },
+  {
+    title: 'Mobile & content platforms',
+    skills: [
+      ['FlutterFlow', null],
+      ['Figma', 'figma'],
+      ['WordPress', 'wordpress'],
+    ],
+  },
+];

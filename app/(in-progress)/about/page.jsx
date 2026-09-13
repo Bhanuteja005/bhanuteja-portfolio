@@ -1,8 +1,9 @@
 import Image from 'next/image';
 
 import { PortfolioPage } from '@/layout';
-import { articles, skillsFun, skillsWork } from '@/portfolio-content';
+import { articles } from '@/portfolio-content';
 import { portfolio } from '@/portfolio.config';
+import { toolkitGroups } from '@/toolkit-data';
 export const metadata = { title: 'About' };
 export default function About() {
   return (
@@ -43,9 +44,35 @@ export default function About() {
       </div>
       <section className='skills-section'>
         <h2>My toolkit.</h2>
-        <div className='skill-tags'>
-          {[...skillsWork, ...skillsFun].map(skill => (
-            <span key={skill}>{skill}</span>
+        <p className='toolkit-intro'>
+          From responsive interfaces to AI agents, APIs, and cloud deployments.
+          The tools I bring to the work.
+        </p>
+        <div className='toolkit-grid'>
+          {toolkitGroups.map(group => (
+            <section className='toolkit-group' key={group.title}>
+              <h3>{group.title}</h3>
+              <ul className='skill-tags'>
+                {group.skills.map(([name, icon]) => (
+                  <li key={name}>
+                    {icon ? (
+                      <Image
+                        src={`/images/toolkit/${icon}.svg`}
+                        alt=''
+                        width={28}
+                        height={28}
+                        unoptimized
+                      />
+                    ) : (
+                      <span className='skill-mark' aria-hidden='true'>
+                        ✦
+                      </span>
+                    )}
+                    {name}
+                  </li>
+                ))}
+              </ul>
+            </section>
           ))}
         </div>
       </section>
