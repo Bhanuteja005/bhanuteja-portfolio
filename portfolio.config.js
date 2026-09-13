@@ -23,8 +23,7 @@ export const portfolio = {
   github: 'https://github.com/Bhanuteja005',
   linkedin: 'https://www.linkedin.com/in/bhanu-teja-p-457955253/',
   medium: 'https://medium.com/@pashikantibhanuteja',
-  resume:
-    'https://drive.google.com/file/d/1ANJgrPVgQCSx2TAkSVCizoUnI6lfBCrk/view?usp=sharing',
+  resume: '/Bhanu_Teja_Pashikanti_Resume.pdf',
 
   portrait: '/images/bhanu-editorial.png',
 

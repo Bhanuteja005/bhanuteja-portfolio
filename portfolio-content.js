@@ -87,7 +87,7 @@ export const articles = [
     title: 'Resume',
     description:
       'Crafted a compelling resume that succinctly showcases my key qualifications and achievements, leaving a lasting impression on potential opportunities.',
-    url: 'https://drive.google.com/file/d/1ANJgrPVgQCSx2TAkSVCizoUnI6lfBCrk/view?usp=sharing',
+    url: '/Bhanu_Teja_Pashikanti_Resume.pdf',
     image: '/images/projects/2.jpg',
   },
   {
