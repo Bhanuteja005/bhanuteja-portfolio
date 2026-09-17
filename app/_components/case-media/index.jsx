@@ -16,7 +16,7 @@ const IMAGE_HEIGHT = 1000;
  * Renders one case-study asset, playing videos only while they are on screen.
  *
  * @param {Object} props
- * @param {{ type: 'image' | 'video', src: string }} props.media
+ * @param {{ type: 'image' | 'video' | 'scroll', src: string, pages?: string[] }} props.media
  * @param {string} [props.alt]
  * @param {boolean} [props.priority] Eager-load the image (above the fold).
  * @param {string} [props.poster] Still shown before a video has data.
@@ -54,14 +54,30 @@ export function CaseMedia({ media, alt = '', priority = false, poster }) {
         tabIndex={0}
         aria-label={alt + '. Hover or focus to pause the scrolling preview.'}
       >
-        <Image
-          src={media.src}
-          alt={alt}
-          width={1440}
-          height={5000}
-          unoptimized
-          className='case-scroll-image'
-        />
+        {media.pages?.length ? (
+          <div className='case-scroll-image'>
+            {media.pages.map((src, index) => (
+              <Image
+                key={src}
+                src={src}
+                alt={`${alt} — view ${index + 1}`}
+                width={1440}
+                height={1000}
+                unoptimized
+                style={{ display: 'block', width: '100%', height: 'auto' }}
+              />
+            ))}
+          </div>
+        ) : (
+          <Image
+            src={media.src}
+            alt={alt}
+            width={1440}
+            height={5000}
+            unoptimized
+            className='case-scroll-image'
+          />
+        )}
       </div>
     );
   }

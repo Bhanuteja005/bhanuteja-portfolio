@@ -1,6 +1,71 @@
 /** Freelance projects selected by Bhanu. Screenshots are stored locally. */
 export const referenceWorks = [
   {
+    title: 'LeadGen Copilot',
+    slug: 'leadgen-copilot',
+    location: 'Online',
+    service: 'AI Platform Development',
+    color: '#e8f1ff',
+    href: 'https://leadgencopilot.ai/',
+    description:
+      'An AI-powered prospecting platform for company discovery, decision-maker search, contact verification, and outreach-ready lead lists.',
+    year: '2026',
+    image: '/images/freelance/leadgen-copilot/desktop.png',
+    preview: '/images/freelance/leadgen-copilot/desktop.png',
+  },
+  {
+    title: 'Subham Astro',
+    slug: 'subham-astro',
+    location: 'Online',
+    service: 'AI Platform Development',
+    color: '#e8def5',
+    href: 'https://www.subhamastro.com/',
+    description:
+      'A personalised astrology platform combining birth-chart readings, conversational guides, tarot, compatibility, and daily reports.',
+    year: '2026',
+    image: '/images/freelance/subham-astro/desktop.png',
+    preview: '/images/freelance/subham-astro/desktop.png',
+  },
+  {
+    title: 'SocialScale',
+    slug: 'socialscale',
+    location: 'Online',
+    service: 'Website Development',
+    color: '#e5eafa',
+    href: 'https://www.socialscale.agency/',
+    description:
+      'A social media agency website showcasing growth services, multi-platform strategies, pricing, case studies, and consultation enquiries.',
+    year: '2026',
+    image: '/images/freelance/socialscale/desktop.png',
+    preview: '/images/freelance/socialscale/desktop.png',
+  },
+  {
+    title: 'Studio Habitare',
+    slug: 's-hab',
+    location: 'Vijayawada & Hyderabad, India',
+    service: 'Website Development',
+    color: '#e8e4dd',
+    href: 'https://s-hab.com/',
+    description:
+      'An architecture and interior design website presenting bespoke spaces, studio services, project galleries, and consultation enquiries.',
+    year: '2026',
+    image: '/images/freelance/s-hab/desktop.png',
+    preview: '/images/freelance/s-hab/desktop.png',
+  },
+  {
+    title: 'Bat Wayne Manor',
+    slug: 'wayne-manor',
+    location: 'Online',
+    service: 'E-commerce Development',
+    color: '#f0eee7',
+    href: 'https://waynemanor.vercel.app/',
+    description:
+      'An editorial fashion storefront for garments, accessories, and private objects, with collection browsing, product pages, wishlists, and shopping bags.',
+    year: '2026',
+    image: '/images/freelance/wayne-manor/desktop.png',
+    preview: '/images/freelance/wayne-manor/desktop.png',
+  },
+  {
     title: 'Aurum Reality',
     slug: 'aurum-reality',
     location: 'Hyderabad, India',
@@ -64,5 +129,19 @@ export const referenceWorks = [
     year: '2026',
     image: '/images/freelance/the-june-shop/desktop.jpg',
     preview: '/images/freelance/the-june-shop/desktop.jpg',
+  },
+  {
+    title: 'Hanami',
+    slug: 'hanami',
+    location: 'Online',
+    service: 'Interactive Website Development',
+    color: '#eee9e5',
+    href: 'https://s3-delta.vercel.app/hanami',
+    description:
+      'An immersive bilingual editorial experience exploring Japanese blossom-viewing traditions through atmospheric visuals, typography, and seasonal storytelling.',
+    year: '2026',
+    image: '/images/freelance/hanami/desktop.png',
+    preview: '/images/freelance/hanami/desktop.png',
+    home: false,
   },
 ];

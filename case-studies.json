@@ -293,5 +293,389 @@
         ]
       }
     ]
+  },
+  "leadgen-copilot": {
+    "live": "https://leadgencopilot.ai/",
+    "hero": [
+      {
+        "type": "image",
+        "src": "/images/freelance/leadgen-copilot/desktop.png"
+      }
+    ],
+    "blocks": [
+      {
+        "className": "block-laptop-demo",
+        "color": "#e8f1ff",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "scroll",
+                "src": "/images/freelance/leadgen-copilot/desktop.png",
+                "pages": [
+                  "/images/freelance/leadgen-copilot/desktop.png",
+                  "/images/freelance/leadgen-copilot/desktop-2.png",
+                  "/images/freelance/leadgen-copilot/desktop-3.png"
+                ]
+              }
+            ],
+            "frame": null
+          }
+        ]
+      },
+      {
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/leadgen-copilot/mobile.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/leadgen-copilot/mobile-2.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/leadgen-copilot/mobile-3.png"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      }
+    ]
+  },
+  "subham-astro": {
+    "live": "https://www.subhamastro.com/",
+    "hero": [
+      {
+        "type": "image",
+        "src": "/images/freelance/subham-astro/desktop.png"
+      }
+    ],
+    "blocks": [
+      {
+        "className": "block-laptop-demo",
+        "color": "#e8def5",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "scroll",
+                "src": "/images/freelance/subham-astro/desktop.png",
+                "pages": [
+                  "/images/freelance/subham-astro/desktop.png",
+                  "/images/freelance/subham-astro/desktop-2.png",
+                  "/images/freelance/subham-astro/desktop-3.png"
+                ]
+              }
+            ],
+            "frame": null
+          }
+        ]
+      },
+      {
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/subham-astro/mobile.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/subham-astro/mobile-2.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/subham-astro/mobile-3.png"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      }
+    ]
+  },
+  "socialscale": {
+    "live": "https://www.socialscale.agency/",
+    "hero": [
+      {
+        "type": "image",
+        "src": "/images/freelance/socialscale/desktop.png"
+      }
+    ],
+    "blocks": [
+      {
+        "className": "block-laptop-demo",
+        "color": "#e5eafa",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "scroll",
+                "src": "/images/freelance/socialscale/desktop.png",
+                "pages": [
+                  "/images/freelance/socialscale/desktop.png",
+                  "/images/freelance/socialscale/desktop-2.png",
+                  "/images/freelance/socialscale/desktop-3.png"
+                ]
+              }
+            ],
+            "frame": null
+          }
+        ]
+      },
+      {
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/socialscale/mobile.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/socialscale/mobile-2.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/socialscale/mobile-3.png"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      }
+    ]
+  },
+  "s-hab": {
+    "live": "https://s-hab.com/",
+    "hero": [
+      {
+        "type": "image",
+        "src": "/images/freelance/s-hab/desktop.png"
+      }
+    ],
+    "blocks": [
+      {
+        "className": "block-laptop-demo",
+        "color": "#e8e4dd",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "scroll",
+                "src": "/images/freelance/s-hab/desktop.png",
+                "pages": [
+                  "/images/freelance/s-hab/desktop.png",
+                  "/images/freelance/s-hab/desktop-2.png",
+                  "/images/freelance/s-hab/desktop-3.png"
+                ]
+              }
+            ],
+            "frame": null
+          }
+        ]
+      },
+      {
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/s-hab/mobile.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/s-hab/mobile-2.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/s-hab/mobile-3.png"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      }
+    ]
+  },
+  "wayne-manor": {
+    "live": "https://waynemanor.vercel.app/",
+    "hero": [
+      {
+        "type": "image",
+        "src": "/images/freelance/wayne-manor/desktop.png"
+      }
+    ],
+    "blocks": [
+      {
+        "className": "block-laptop-demo",
+        "color": "#f0eee7",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "scroll",
+                "src": "/images/freelance/wayne-manor/desktop.png",
+                "pages": [
+                  "/images/freelance/wayne-manor/desktop.png",
+                  "/images/freelance/wayne-manor/desktop-2.png",
+                  "/images/freelance/wayne-manor/desktop-3.png"
+                ]
+              }
+            ],
+            "frame": null
+          }
+        ]
+      },
+      {
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/wayne-manor/mobile.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/wayne-manor/mobile-2.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/wayne-manor/mobile-3.png"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      }
+    ]
+  },
+  "hanami": {
+    "live": "https://s3-delta.vercel.app/hanami",
+    "hero": [
+      {
+        "type": "image",
+        "src": "/images/freelance/hanami/desktop.png"
+      }
+    ],
+    "blocks": [
+      {
+        "className": "block-laptop-demo",
+        "color": "#eee9e5",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "scroll",
+                "src": "/images/freelance/hanami/desktop.png",
+                "pages": [
+                  "/images/freelance/hanami/desktop.png",
+                  "/images/freelance/hanami/desktop-2.png",
+                  "/images/freelance/hanami/desktop-3.png"
+                ]
+              }
+            ],
+            "frame": null
+          }
+        ]
+      },
+      {
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/hanami/mobile.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/hanami/mobile-2.png"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/hanami/mobile-3.png"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      }
+    ]
   }
 }

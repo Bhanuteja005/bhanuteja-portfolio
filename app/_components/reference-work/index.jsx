@@ -18,9 +18,6 @@ import {
   scaleIn,
 } from './variants';
 
-/** Projects shown on the home page before the "More work" link. */
-const HOME_COUNT = 5;
-
 /** Sentinel for "no row hovered or focused". */
 const NONE = -1;
 
@@ -44,7 +41,9 @@ export function ReferenceWork({ home = false }) {
   const badgeX = useSpring(pointerX, badgeSpring);
   const badgeY = useSpring(pointerY, badgeSpring);
 
-  const works = home ? referenceWorks.slice(0, HOME_COUNT) : referenceWorks;
+  const works = home
+    ? referenceWorks.filter(project => project.home !== false)
+    : referenceWorks;
   const isActive = activeIndex >= 0;
 
   /** @param {import('react').PointerEvent<HTMLElement>} event */
@@ -169,7 +168,7 @@ export function ReferenceWork({ home = false }) {
       <div className='reference-work-action'>
         {home ? (
           <Link className='work-more-link' href='/work'>
-            More work <sup>{referenceWorks.length}</sup>
+            View more <sup>{referenceWorks.length}</sup>
           </Link>
         ) : (
           <Link className='work-more-link' href='/contact'>
