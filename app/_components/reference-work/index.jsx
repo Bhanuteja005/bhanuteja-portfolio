@@ -42,7 +42,7 @@ export function ReferenceWork({ home = false }) {
   const badgeY = useSpring(pointerY, badgeSpring);
 
   const works = home
-    ? referenceWorks.filter(project => project.home !== false)
+    ? referenceWorks.filter(project => project.home !== false).slice(0, 5)
     : referenceWorks;
   const isActive = activeIndex >= 0;
 
