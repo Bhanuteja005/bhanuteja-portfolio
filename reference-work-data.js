@@ -14,6 +14,19 @@ export const referenceWorks = [
     preview: '/images/freelance/leadgen-copilot/desktop.png',
   },
   {
+    title: 'SocialFlyAI',
+    slug: 'socialflyai',
+    location: 'Online',
+    service: 'AI Platform Development',
+    color: '#e8f1ff',
+    href: 'https://socialflyai.com/',
+    description:
+      'An AI social media workspace for content creation, calendar planning, publishing workflows, collaboration, and social analytics.',
+    year: '2026',
+    image: '/images/freelance/socialflyai/desktop.jpg',
+    preview: '/images/freelance/socialflyai/desktop.jpg',
+  },
+  {
     title: 'Subham Astro',
     slug: 'subham-astro',
     location: 'Online',

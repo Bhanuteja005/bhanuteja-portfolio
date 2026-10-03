@@ -677,5 +677,64 @@
         ]
       }
     ]
+  },
+  "socialflyai": {
+    "live": "https://socialflyai.com/",
+    "hero": [
+      {
+        "type": "image",
+        "src": "/images/freelance/socialflyai/desktop.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "className": "block-laptop-demo",
+        "color": "#e8f1ff",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "scroll",
+                "src": "/images/freelance/socialflyai/desktop-scroll.jpg"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      },
+      {
+        "className": "block-mobile-devices",
+        "color": "#f5f5f5",
+        "groups": [
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/socialflyai/mobile.jpg"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/socialflyai/mobile-2.jpg"
+              }
+            ],
+            "frame": null
+          },
+          {
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/freelance/socialflyai/mobile-3.jpg"
+              }
+            ],
+            "frame": null
+          }
+        ]
+      }
+    ]
   }
 }
