@@ -92,32 +92,6 @@ export const referenceWorks = [
     preview: '/images/freelance/aurum-reality/desktop.jpg',
   },
   {
-    title: 'Roastery Coffee House',
-    slug: 'roastery-coffee-house',
-    location: 'Hyderabad, India',
-    service: 'Website Development',
-    color: '#f0e9e4',
-    href: 'https://roasterycoffee.co.in/hyderabad/',
-    description:
-      'A café and coffee website bringing together the Hyderabad location, café story, and coffee shopping experience.',
-    year: '2026',
-    image: '/images/freelance/roastery-coffee-house/desktop.jpg',
-    preview: '/images/freelance/roastery-coffee-house/desktop.jpg',
-  },
-  {
-    title: 'True Black',
-    slug: 'true-black',
-    location: 'Hyderabad, India',
-    service: 'Website Development',
-    color: '#c8bba8',
-    href: 'https://trueblack.coffee/',
-    description:
-      'A specialty coffee landing page focused on the brand atmosphere, Hyderabad locations, and its upcoming ordering app.',
-    year: '2026',
-    image: '/images/freelance/true-black/desktop.jpg',
-    preview: '/images/freelance/true-black/desktop.jpg',
-  },
-  {
     title: 'The Dandelion Wish',
     slug: 'the-dandelion-wish',
     location: 'Hyderabad, India',
